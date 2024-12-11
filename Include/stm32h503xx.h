@@ -2480,7 +2480,7 @@ typedef struct
 #define ADC_AWD3CR_AWD3CH_16           (0x10000UL << ADC_AWD3CR_AWD3CH_Pos)    /*!< 0x00010000 */
 #define ADC_AWD3CR_AWD3CH_17           (0x20000UL << ADC_AWD3CR_AWD3CH_Pos)    /*!< 0x00020000 */
 #define ADC_AWD3CR_AWD3CH_18           (0x40000UL << ADC_AWD3CR_AWD3CH_Pos)    /*!< 0x00040000 */
-#define ADC_AWD3CR_AWD2CH_19           (0x80000UL << ADC_AWD3CR_AWD2CH_Pos)    /*!< 0x00080000 */
+#define ADC_AWD3CR_AWD3CH_19           (0x80000UL << ADC_AWD3CR_AWD3CH_Pos)    /*!< 0x00080000 */
 
 /********************  Bit definition for ADC_DIFSEL register  ****************/
 #define ADC_DIFSEL_DIFSEL_Pos          (0U)
@@ -6456,7 +6456,7 @@ typedef struct
 #define GPIO_HSLVR_HSLV10_Msk               (0x1UL << GPIO_HSLVR_HSLV10_Pos)        /*!< 0x00000400 */
 #define GPIO_HSLVR_HSLV10                   GPIO_HSLVR_HSLV10_Msk
 #define GPIO_HSLVR_HSLV11_Pos               (11U)
-#define GPIO_HSLVR_HSLV11_Msk               (x1UL << GPIO_HSLVR_HSLV11_Pos)         /*!< 0x00000800 */
+#define GPIO_HSLVR_HSLV11_Msk               (0x1UL << GPIO_HSLVR_HSLV11_Pos)        /*!< 0x00000800 */
 #define GPIO_HSLVR_HSLV11                   GPIO_HSLVR_HSLV11_Msk
 #define GPIO_HSLVR_HSLV12_Pos               (12U)
 #define GPIO_HSLVR_HSLV12_Msk               (0x1UL << GPIO_HSLVR_HSLV12_Pos)        /*!< 0x00001000 */
@@ -6506,7 +6506,7 @@ typedef struct
 #define GPIO_SECCFGR_SEC10_Msk              (0x1UL << GPIO_SECCFGR_SEC10_Pos)       /*!< 0x00000400 */
 #define GPIO_SECCFGR_SEC10                  GPIO_SECCFGR_SEC10_Msk
 #define GPIO_SECCFGR_SEC11_Pos              (11U)
-#define GPIO_SECCFGR_SEC11_Msk              (x1UL << GPIO_SECCFGR_SEC11_Pos)        /*!< 0x00000800 */
+#define GPIO_SECCFGR_SEC11_Msk              (0x1UL << GPIO_SECCFGR_SEC11_Pos)       /*!< 0x00000800 */
 #define GPIO_SECCFGR_SEC11                  GPIO_SECCFGR_SEC11_Msk
 #define GPIO_SECCFGR_SEC12_Pos              (12U)
 #define GPIO_SECCFGR_SEC12_Msk              (0x1UL << GPIO_SECCFGR_SEC12_Pos)       /*!< 0x00001000 */
