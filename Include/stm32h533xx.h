@@ -242,11 +242,6 @@ typedef struct
        uint32_t RESERVED2;      /*!< Reserved,                                                    0x0C */
   __IO uint32_t INIT;           /*!< Initial CRC value register,                  Address offset: 0x10 */
   __IO uint32_t POL;            /*!< CRC polynomial register,                     Address offset: 0x14 */
-       uint32_t RESERVED3[246]; /*!< Reserved,                                                         */
-  __IO uint32_t HWCFGR;         /*!< CRC IP HWCFGR register,                     Address offset: 0x3F0 */
-  __IO uint32_t VERR;           /*!< CRC IP version register,                    Address offset: 0x3F4 */
-  __IO uint32_t PIDR;           /*!< CRC IP type identification register,        Address offset: 0x3F8 */
-  __IO uint32_t SIDR;           /*!< CRC IP map Size ID register,                Address offset: 0x3FC */
 } CRC_TypeDef;
 
 /**
